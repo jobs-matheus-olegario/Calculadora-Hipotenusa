@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="Estilos/Style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <img class="wave" src="Avatares/Fundo.png" />
+        <div class="container">
+            <div class="img">
+                <img src="Avatares/bg.svg" />
+            </div>
+            <div class="login-content">
+                <form id="form">
+                    <p class="title">Teorema de Pitágoras</p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Cateto Oposto:</h5>
+                            <input type="number" class="input" for="oposto" name="oposto" id="oposto" />
+                        </div>
+                    </div>
+                    <div class="input-div pass">
+                        <div class="i">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Cateto Adjacente:</h5>
+                            <input type="number" class="input" for="adjacente" name="adjacente" id="adjacente" />
+                        </div>
+                    </div>
+
+                    <div class="input-div pass">
+                        <div class="i">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="div">
+                            <input type="number" class="input" for="adjacente" name="adjacente" id="hipotenusa" />
+                        </div>
+                    </div>
+                    <br/>
+                    <input type="submit" class="btn" value="Calcular" />
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="Eventos/Main.js"></script>
+    </body>
+</html>
